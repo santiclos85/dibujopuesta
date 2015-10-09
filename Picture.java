@@ -15,7 +15,8 @@ public class Picture
     private Square window;
     private Triangle roof;
     private Circle sun;
-private Circle weed;
+    private Circle weed;
+    private Person persona;
     /**
      * Constructor for objects of class Picture
      */
@@ -82,6 +83,20 @@ private Circle weed;
         }
     }
  
+    /**
+     * Una persona hacia la casa
+     */
+    public void persona()
+    {
+        {
+            persona = new Person();
+            persona.moveHorizontal(-300);
+            persona.moveVertical(20);
+            persona.makeVisible();
+            persona.slowMoveHorizontal(170);
+        }
+    }
+    
     /**
      * Change this picture to black/white display
      */
