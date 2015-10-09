@@ -6,7 +6,7 @@
  *
  * This class was written as an early example for teaching Java with BlueJ.
  * 
- * @author  Michael Kšlling and David J. Barnes
+ * @author  Michael Kï¿½lling and David J. Barnes
  * @version 2011.07.31
  */
 public class Picture
@@ -48,13 +48,16 @@ public class Picture
         roof.moveVertical(-60);
         roof.makeVisible();
 
-        sun = new Circle();
-        sun.changeColor("yellow");
+       
+         sun = new Circle();
+        sun.changeColor("green");
         sun.moveHorizontal(100);
         sun.moveVertical(-40);
         sun.changeSize(80);
         sun.makeVisible();
-    }
+
+    
+ }
 
     /**
      * Change this picture to black/white display
