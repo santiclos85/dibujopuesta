@@ -64,10 +64,19 @@ private Circle weed;
         sun.moveVertical(-40);
         sun.changeSize(80);
         sun.makeVisible();
-        sun.slowMoveVertical(110);
         
  }
 
+ /**
+     * mover el sol hacia abajo
+     */
+    public void movesun()
+    {
+        {
+            sun.slowMoveVertical(110);
+        }
+    }
+ 
     /**
      * Change this picture to black/white display
      */
