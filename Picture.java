@@ -74,6 +74,11 @@ private Circle weed;
     {
         {
             sun.slowMoveVertical(110);
+             wall.changeColor("black");
+            window.changeColor("white");
+            roof.changeColor("black");
+            sun.changeColor("black");
+            weed.changeColor("black");
         }
     }
  
