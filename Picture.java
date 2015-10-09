@@ -49,12 +49,6 @@ private Circle weed;
         roof.makeVisible();
 
        
-         sun = new Circle();
-        sun.changeColor("yellow");
-        sun.moveHorizontal(100);
-        sun.moveVertical(-40);
-        sun.changeSize(80);
-        sun.makeVisible();
         
          weed = new Circle();
         weed.changeColor("green");
@@ -64,7 +58,13 @@ private Circle weed;
         weed.makeVisible();
         
         
-
+         sun = new Circle();
+        sun.changeColor("yellow");
+        sun.moveHorizontal(100);
+        sun.moveVertical(-40);
+        sun.changeSize(80);
+        sun.makeVisible();
+        sun.slowMoveVertical(110);
         
  }
 
