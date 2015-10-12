@@ -96,7 +96,45 @@ public class Picture
             persona.slowMoveHorizontal(170);
         }
     }
+    /**
+     * Varias personas 
+     */
+    public void personas1()
+    {
+        {
+            persona = new Person();
+            persona.moveHorizontal(-190);
+            persona.moveVertical(20);
+            persona.makeVisible();
+            persona.slowMoveVertical(30);
+        }
     
+    /**
+     * Varias personas 
+     */
+    
+    
+        {
+            persona = new Person();
+            persona.moveHorizontal(-150);
+            persona.moveVertical(20);
+            persona.makeVisible();
+            persona.slowMoveVertical(20);
+        }
+    
+    /**
+     * Varias personas 
+     */
+    
+    
+        {
+            persona = new Person();
+            persona.moveHorizontal(140);
+            persona.moveVertical(20);
+            persona.makeVisible();
+            persona.slowMoveVertical(10);
+        }
+    }
     /**
      * Change this picture to black/white display
      */
